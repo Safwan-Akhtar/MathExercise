@@ -1,8 +1,13 @@
 package Math.Exercise;
 
 public class MathsExerciseCalculator {
-	double division(double num1, double num2) {
-		return num1 / num2;
+	
+	String division(double num1, double num2) {
+		if (num1 < num2) {
+		return "Division cannot be preformed";
+		} else {
+		return " " + (num1 / num2);
+		}	
 	}
 	int subtract(int num1, int num2) {
 		return num1 - num2;
